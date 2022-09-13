@@ -6,7 +6,7 @@
 
 ## キーボードショートカット: キーボードドラッグ
 
-ドラッグが発生していない場合、ユーザーは標準の **tab** <kbd>tab ↹</kbd>キーを使用してページ上の`<Draggable />`をナビゲートし、次のページに移動できます。タブ可能な要素と(**shift** + **tab**) (<kbd>shift</kbd> + )<kbd>tab ↹</kbd>)で後方に移動します。これは、`<Draggable />`に`tab-index`を追加することで実現します。`<Draggable />`にフォーカスがあるとき、**スペースバー**<kbd>space</kbd>は`<Draggable />`を**リフト**します。これにより、ドラッグが開始されます。
+ドラッグが発生していない場合、ユーザーは標準の**tab**<kbd>tab ↹</kbd>キーを使用してページ上の`<Draggable />`をナビゲートし、次のページに移動できます。タブ可能な要素と(**shift** + **tab**) (<kbd>shift</kbd> + <kbd>tab ↹</kbd>)で後方に移動します。これは、`<Draggable />`に`tab-index`を追加することで実現します。`<Draggable />`にフォーカスがあるとき、**spacebar**<kbd>space</kbd>は`<Draggable />`を**持ち上げ**ます。これにより、ドラッグが開始されます。
 
 ドラッグを開始すると、以下のキーボードショートカットが使用できます:
 
@@ -34,7 +34,7 @@
 - **tab** <kbd>tab ↹</kbd> - タブ化防止
 - **enter** <kbd>⏎</kbd> - 送信防止
 
-## Auto scrolling
+## 自動スクロール
 
 キーボードでドラッグすると、`react-beautiful-dnd`は[自動スクロール](/docs/guides/auto-scrolling.md)操作を行い、アイテムを移動できるようにします
 
