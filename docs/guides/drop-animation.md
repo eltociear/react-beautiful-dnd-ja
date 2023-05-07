@@ -1,10 +1,10 @@
-# Drop animation
+# ドロップアニメーション
 
-Out of the box we provide a beautiful drop animation for you to use. We have worked hard to create an experience that feels responsive while also feeling like you are physically dropping an object. There may be situations in which you want to add an additional effect to the drop, or remove the drop animation entirely.
+美しいドロップアニメーションは、そのまま使用できます。物理的に物体を落としているような感覚を持ちながら、レスポンスの良い体験を提供できるよう努力しています。ドロップに追加効果を加えたい場合や、ドロップアニメーションを完全に削除したい場合があります。
 
-## Styling a drop
+## ドロップのスタイリング
 
-You are able to add your own style to a `<Draggable />` while it is dropping (such as `background-color`). You know a drop is occurring when `DraggableStateSnapshot > DropAnimation` is populated.
+ドロップ中に `<Draggable />` に独自のスタイルを追加できるようになりました（`background-color` など）。`DraggableStateSnapshot>DropAnimation` が入力されると、ドロップが発生したことがわかります。
 
 ## Patching the drop animation
 
