@@ -1,10 +1,10 @@
-# Media
+# メディア
 
-This page contains a list of articles, blogs and newsletters that `react-beautiful-dnd` has appeared in.
+このページでは、`react-beautiful-dnd` が登場した記事、ブログ、ニュースレターの一覧を掲載しています。
 
-## Blogs by the `react-beautiful-dnd` team
+## `react-beautiful-dnd` チームによるブログ
 
-### Project related
+### プロジェクト関連
 
 - [Rethinking drag and drop](https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b)
 - [Natural keyboard movement between lists](https://medium.com/@alexandereardon/friction-gravity-and-collisions-3adac3a94e19)
@@ -14,23 +14,23 @@ This page contains a list of articles, blogs and newsletters that `react-beautif
 - [Overhauling our collision engine](https://dev.to/alexandereardon/overhauling-our-collision-engine-962)
 - [react-beautiful-dnd: behind the magic](https://www.youtube.com/watch?v=Kz50msV-zq0)
 
-### Performance related
+### パフォーマンス関連
 
 - [Performance optimisations for React applications](https://medium.com/@alexandereardon/performance-optimisations-for-react-applications-b453c597b191)
 - [Performance optimisations for React applications: Round 2](https://medium.com/@alexandereardon/performance-optimisations-for-react-applications-round-2-2042e5c9af97)
 - [Dragging React performance forward](https://medium.com/@alexandereardon/dragging-react-performance-forward-688b30d40a33)
 - [Grabbing the flame 🔥](https://medium.com/@alexandereardon/grabbing-the-flame-290c794fe852)
 
-## Other
+## その他
 
 - [What does react-beautiful-dnd cost to maintain?](https://dev.to/alexandereardon/what-does-react-beautiful-dnd-cost-to-maintain-52e8)
 - [Deep Sea Fishing with React Hooks](https://www.youtube.com/watch?v=MVi17tk3VsI)
 
-## Podcasts
+## ポッドキャスト
 
 - [React podcast: Fast, Accessible, and Beautiful Drag and Drop with Alex Reardon](https://reactpodcast.simplecast.fm/17)
 
-## Newsletters
+## ニュースレター
 
 - Tiny letter [November 04, 2019](https://tinyletter.com/cassidoo/letters/the-world-is-changed-by-your-example-not-by-your-opinion-paulo-coelho)
 - Ponyfoo [issue 78](https://ponyfoo.com/weekly/78/javascript-and-css-engines-pwa-drag-and-drop-web-components-and-http-2)
@@ -69,7 +69,7 @@ This page contains a list of articles, blogs and newsletters that `react-beautif
 - The Week of React [issue 57](http://www.theweekofreact.com/issues/fold-up-images-in-react-using-webassembly-w-react-react-europe-livestream-more-179542)
 - React Digest [issue 201](https://reactdigest.net/digests/201)
 
-## Articles, tutorials and blogs
+## 記事、チュートリアル、ブログ
 
 - [Here Are 5 Useful React Components](https://medium.com/javascript-in-plain-english/here-are-5-useful-react-components-fb3927e7d790)
 - [Build a beautiful, draggable kanban board with react-beautiful-dnd](https://www.youtube.com/watch?v=uHO3mQgs-e8)
@@ -93,4 +93,4 @@ This page contains a list of articles, blogs and newsletters that `react-beautif
 - Mybridge React.JS Top 10 Articles For the Past Month [v.Sep 2017](https://medium.mybridge.co/react-js-top-10-articles-for-the-past-month-v-sep-2017-1894c4d91e0c)
 - Inside Dev [Sep 3rd, 2017](https://inside.com/campaigns/inside-dev-2017-09-03-3154/sections/dive-deeper-arcore-17345)
 
-[← Back to documentation](/README.md#documentation-)
+[←ドキュメントに戻る](/README.md#documentation-)
