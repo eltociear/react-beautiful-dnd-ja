@@ -1,4 +1,4 @@
-# Responders
+# レスポンダー
 
 > `<DragDropContext /> > Responders`
 
@@ -232,4 +232,4 @@ Here are a few poor user experiences that can occur if you change things _during
 - If you remove the node that the user is dragging, then the drag will instantly end
 - If you change the dimension of the dragging node, then other things will not move out of the way at the correct time.
 
-[← Back to documentation](/README.md#documentation-)
+[← ドキュメントに戻る](/README.md#documentation-)
