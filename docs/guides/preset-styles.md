@@ -1,8 +1,8 @@
 # Preset styles
 
-We apply a number of **non-visible** styles to facilitate the dragging experience. We do this using combination of styling targets and techniques. It is a goal of the library to provide unopinioned styling. However, we do apply some reasonable `cursor` styling on drag handles by default. This is designed to make the library work as simply as possible out of the box. If you want to use your own cursors you are more than welcome to. All you need to do is override our cursor style rules by using a rule with [higher specificity](https://css-tricks.com/specifics-on-css-specificity/).
+私たちは、ドラッグ操作の体験を容易にするために、**目に見えない** スタイルを数多く適用しています。これは、スタイリングターゲットとテクニックの組み合わせで行います。このライブラリの目標は、主観的でないスタイリングを提供することです。しかし、デフォルトでは、ドラッグハンドルにいくつかの合理的な `カーソル` スタイルを適用しています。これは、ライブラリが箱から出してもできるだけシンプルに動作するようにするためのものです。もし、あなたが独自のカーソルを使いたいのであれば、大歓迎です。必要なのは、[高い特異性](https://css-tricks.com/specifics-on-css-specificity/)を持つルールを使って、カーソルスタイルのルールをオーバーライドすることだけです。
 
-Here are the styles that are applied at various points in the drag lifecycle:
+以下は、ドラッグのライフサイクルの様々な場面で適用されるスタイルです:
 
 ## In every phase
 
@@ -135,4 +135,4 @@ This is the same as `Phase: dropping`. However we do not apply a `cursor: grab` 
 
 All styles applied are vendor prefixed correctly to meet the requirements of our [supported browser matrix](https://confluence.atlassian.com/cloud/supported-browsers-744721663.html). This is done by hand to avoid adding to react-beautiful-dnd's size by including a css-in-js library
 
-[← Back to documentation](/README.md#documentation-)
+[← ドキュメントに戻る](/README.md#documentation-)
