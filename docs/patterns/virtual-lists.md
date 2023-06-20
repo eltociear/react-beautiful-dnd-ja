@@ -1,10 +1,10 @@
-# Virtual lists
+# バーチャルリスト
 
-`react-beautiful-dnd` supports drag and drop within and between virtual lists. This lets you have fantastic performance with very large data sets. As a general rule, you will want to start using a virtual list when your list size is more than 500 items.
+`react-beautiful-dnd` は、仮想リスト内および仮想リスト間のドラッグ＆ドロップをサポートしています。これにより、非常に大きなデータセットでも素晴らしいパフォーマンスを発揮することができます。一般的なルールとして、リストのサイズが 500 アイテム以上になったら仮想リストを使い始めるとよいでしょう。
 
 ![virtual-board](https://user-images.githubusercontent.com/2182637/66453948-e0044d00-eab1-11e9-88db-3e5165dde69b.gif)
 
-## Background: what are virtual lists?
+## 背景: バーチャルリストとは何ですか？
 
 A "virtual list" is the name given to a _windowing_ performance optimisation technique where only the **visible** list items are rendered. See [Rendering large lists with react-window](https://addyosmani.com/blog/react-window/) by Addy Osmani for more background on virtual lists
 
@@ -91,7 +91,7 @@ When using a virtual list the original dragging item can be unmounted during a d
 
 > 👋 This is only required when you have multiple connected lists. This is not required when using a single list
 
-Usually we require consumers to put a `placeholder` (`<Droppable /> | DroppableProvided | placeholder`) into the list so that we can insert space into a list as needing during a drag.
+通常、ドラッグ中に必要なスペースをリストに挿入できるように、コンシューマには `placeholder` (`<Droppable /> | DroppableProvided | placeholder`) をリストに置くことを要求します。
 
 ```js
 <Droppable droppableId="droppable">
@@ -151,4 +151,4 @@ function render(provided: DroppableProvided, snapshot: DroppableStateSnapshot) {
 }
 ```
 
-[← Back to documentation](/README.md#documentation-)
+[← ドキュメントに戻る](/README.md#documentation-)
