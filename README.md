@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[`React`](https://facebook.github.io/react/)　を使用した**美しく**て**誰でも使いやすい**ドラッグ・アンド・ドロップリスト
+[`React`](https://facebook.github.io/react/) を使用した**美しく**て**誰でも使いやすい**ドラッグ・アンド・ドロップリスト
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/atlassian/react-beautiful-dnd/master.svg)](https://circleci.com/gh/atlassian/react-beautiful-dnd/tree/master)
 [![npm](https://img.shields.io/npm/v/react-beautiful-dnd.svg)](https://www.npmjs.com/package/react-beautiful-dnd)
@@ -24,11 +24,11 @@
 - 使い始めるのが簡単なクリーンで強力なAPI
 - 標準のブラウザ操作で非常にうまく機能
 - [かっちりしたスタイリング](/docs/guides/preset-styles.md)
-- 追加のラッパー　DOM　ノードを作成する必要なし-フレックスボックスとフォーカス管理に適しています！
+- 追加のラッパー DOM ノードを作成する必要なし-フレックスボックスとフォーカス管理に適しています！
 
 ## 始めましょう👩‍🏫
 
-すぐに　`react-beautiful-dnd`　を始められるように、[`egghead.io`　🥚上に無料のコース](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) を用意しています。
+すぐに `react-beautiful-dnd` を始められるように、[`egghead.io` 🥚上に無料のコース](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) を用意しています。
 
 [![course-logo](https://user-images.githubusercontent.com/2182637/43372837-8c72d3f8-93e8-11e8-9d92-a82adde7718f.png)](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd)
 
@@ -37,7 +37,7 @@
 - 垂直リスト↕
 - 水平リスト↔
 - リスト間の移動(▤ ↔ ▤)
-- [仮想リストのサポート👾](/docs/patterns/virtual-lists.md) - 10,000　個のアイテムを　60　fps　で解除
+- [仮想リストのサポート👾](/docs/patterns/virtual-lists.md) - 10,000 個のアイテムを 60 fps で解除
 - [アイテムを組み合わせ](/docs/guides/combining.md)
 - マウス🐭、キーボード🎹♿️ そしてタッチスクリーン👉📱（モバイル、タブレット等）サポート
 - [マルチドラッグのサポート](/docs/patterns/multi-drag.md)
