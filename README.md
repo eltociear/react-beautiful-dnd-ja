@@ -43,31 +43,31 @@
 - [マルチドラッグのサポート](/docs/patterns/multi-drag.md)
 - 信じられないほどのスクリーンリーダーのサポート♿️ - 箱から出してすぐの英語のスクリーンリーダーに素晴らしい体験を提供します📦。また、完全なカスタマイズ制御と国際化サポートを必要とする人に提供します💖
 - [条件付きドラッグ](/docs/api/draggable.md#optional-props)と[条件付きドロップ](/docs/api/droppable.md#conditionally-dropping)
-- 1　ページに複数の独立したリスト
+- 1 ページに複数の独立したリスト
 - 柔軟なアイテムサイズ - ドラッグ可能なアイテムは、さまざまな高さ（垂直リスト）または幅（水平リスト）を持つことができます
 - [ドラッグ中にアイテムを追加および削除](/docs/guides/changes-while-dragging.md)
-- セマンティック　`<table>`　の並べ替えとの互換性 - [テーブルパターン](/docs/patterns/tables.md)
+- セマンティック `<table>` の並べ替えとの互換性 - [テーブルパターン](/docs/patterns/tables.md)
 - [自動スクロール](/docs/guides/auto-scrolling.md) - ドラッグ中に必要に応じてコンテナとウィンドウを自動的にスクロールします（キーボードを使用している場合でも🔥）
 - カスタムドラッグハンドル - アイテムの一部だけでアイテム全体をドラッグできます
-- ドラッグ中にドラッグアイテムを別の要素に移動できる（クローン、ポータル） - [`<Draggable />　の親変更`](/docs/guides/reparenting.md)
+- ドラッグ中にドラッグアイテムを別の要素に移動できる（クローン、ポータル） - [`<Draggable /> の親変更`](/docs/guides/reparenting.md)
 - [スクリプト化されたドラッグアンドドロップ体験を作成する🎮](/docs/sensors/sensor-api.md)
-- 拡張機能が[任意の　input　タイプ 🕹](/docs/sensors/sensor-api.md)をサポートできるようにします
-- 🌲[`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/confluence/tree)　パッケージによるツリーのサポート
-- `<Droppable />`　リストは、スクロールコンテナ（スクロール可能な親なし）またはスクロールコンテナの子（スクロール可能な親なし）にすることができます。
+- 拡張機能が[任意の input タイプ 🕹](/docs/sensors/sensor-api.md)をサポートできるようにします
+- 🌲[`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/confluence/tree) パッケージによるツリーのサポート
+- `<Droppable />` リストは、スクロールコンテナ（スクロール可能な親なし）またはスクロールコンテナの子（スクロール可能な親なし）にすることができます。
 - 独立したネストされたリスト - リストは別のリストの子になることができますが、親リストから子リストにアイテムをドラッグすることはできません
-- サーバーサイドレンダリング　（SSR）　互換 - [resetServerContext()](/docs/api/reset-server-context.md)を参照してください
+- サーバーサイドレンダリング （SSR） 互換 - [resetServerContext()](/docs/api/reset-server-context.md)を参照してください
 - デフォルトでは[ネストされたインタラクティブ要素](/docs/api/draggable.md#interactive-child-elements-within-a-draggable-)とうまく連携します
 
 ## 作成の動機🤔
 
-`react-beautiful-dnd`　は、誰でも使用できるリストの美しいドラッグアンドドロップを作成するために存在します - 見ることができない人でも。プロジェクトの歴史と動機の概要については、次の外部リソースをご覧ください：
+`react-beautiful-dnd` は、誰でも使用できるリストの美しいドラッグアンドドロップを作成するために存在します - 見ることができない人でも。プロジェクトの歴史と動機の概要については、次の外部リソースをご覧ください：
 
 - 📖 [ドラッグアンドドロップを再考する](https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b)
-- 🎧 [React podcast：　高速でアクセスしやすく、美しいドラッグアンドドロップ](https://reactpodcast.simplecast.fm/17)
+- 🎧 [React podcast： 高速でアクセスしやすく、美しいドラッグアンドドロップ](https://reactpodcast.simplecast.fm/17)
 
 ## すべての人のためではありません✌️
 
-React　内でドラッグアンドドロップの相互作用を可能にするライブラリはたくさんあります。これらの中で最も注目に値するのは、驚くべき[`react-dnd`](https://github.com/react-dnd/react-dnd)です。それは[非常に一貫性のない](https://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html)　html5　ドラッグアンドドロップ機能で特にうまく機能するドラッグアンドドロッププリミティブの素晴らしいセットを提供するという素晴らしい仕事をします。`react-beautiful-dnd`　は、リスト用に特別に構築された高レベルの抽象化です（垂直、水平、リスト間の移動、ネストされたリストなど）。その機能のサブセット内で、`react-beautiful-dnd`　は、強力で自然で美しいドラッグアンドドロップ体験を提供します。ただし、`react-dnd`　が提供する幅広い機能は提供していません。したがって、ユースケースによっては、`react-beautiful-dnd`　が適切でない場合があります。
+React 内でドラッグアンドドロップの相互作用を可能にするライブラリはたくさんあります。これらの中で最も注目に値するのは、驚くべき [`react-dnd`](https://github.com/react-dnd/react-dnd) です。それは[非常に一貫性のない](https://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html) html5 ドラッグアンドドロップ機能で特にうまく機能するドラッグアンドドロッププリミティブの素晴らしいセットを提供するという素晴らしい仕事をします。`react-beautiful-dnd` は、リスト用に特別に構築された高レベルの抽象化です（垂直、水平、リスト間の移動、ネストされたリストなど）。その機能のサブセット内で、`react-beautiful-dnd` は、強力で自然で美しいドラッグアンドドロップ体験を提供します。ただし、`react-dnd` が提供する幅広い機能は提供していません。したがって、ユースケースによっては、`react-beautiful-dnd` が適切でない場合があります。
 
 ## ドキュメント📖
 
@@ -95,30 +95,30 @@ React　内でドラッグアンドドロップの相互作用を可能にする
 ![diagram](https://user-images.githubusercontent.com/2182637/53607406-c8f3a780-3c12-11e9-979c-7f3b5bd1bfbd.gif)
 
 - [`<DragDropContext />`](/docs/api/drag-drop-context.md) - _ドラッグアンドドロップを有効にするアプリケーションの部分をラップする_
-- [`<Droppable />`](/docs/api/droppable.md) - _ドロップ可能なエリア。`<Draggable />`　を含む_
+- [`<Droppable />`](/docs/api/droppable.md) - _ドロップ可能なエリア。`<Draggable />` を含む_
 - [`<Draggable />`](/docs/api/draggable.md) - _ドラッグ可能なもの_
-- [`resetServerContext()`](/docs/api/reset-server-context.md) - _サーバーサイドレンダリング　（SSR）　のユーティリティ_
+- [`resetServerContext()`](/docs/api/reset-server-context.md) - _サーバーサイドレンダリング （SSR） のユーティリティ_
 
 ### ガイド🗺
 
-- [`<DragDropContext />`　レスポンダー](/docs/guides/responders.md) - _`onDragStart`、`onDragUpdate`、`onDragEnd`　及び　`onBeforeDragStart`_
-- [`<Draggable />`　を組み合わせる](/docs/guides/combining.md)
+- [`<DragDropContext />` レスポンダー](/docs/guides/responders.md) - _`onDragStart`、`onDragUpdate`、`onDragEnd` 及び `onBeforeDragStart`_
+- [`<Draggable />` を組み合わせる](/docs/guides/combining.md)
 - [一般的なセットアップの問題](/docs/guides/common-setup-issues.md)
-- [`innerRef`　の使用](/docs/guides/using-inner-ref.md)
+- [`innerRef` の使用](/docs/guides/using-inner-ref.md)
 - [問題の検出とエラー回復の設定](/docs/guides/setup-problem-detection-and-error-recovery.md)
-- [`draggableId`　及び　`droppableId`　のルール](/docs/guides/identifiers.md)
+- [`draggableId` 及び `droppableId` のルール](/docs/guides/identifiers.md)
 - [ブラウザのフォーカス保持](/docs/guides/browser-focus.md)
 - [ドロップアニメーションのカスタマイズまたはスキップ](/docs/guides/drop-animation.md)
 - [自動スクロール](/docs/guides/auto-scrolling.md)
 - [スクリーンリーダーの制御](/docs/guides/screen-reader.md)
-- [html5　の　`doctype`　の使用](/docs/guides/doctype.md)
-- [`TypeScript`　及び　`flow`: 型の情報](/docs/guides/types.md)
-- [`<svg>`　のドラッグ](/docs/guides/dragging-svgs.md)
+- [html5 の `doctype` の使用](/docs/guides/doctype.md)
+- [`TypeScript` 及び `flow`: 型の情報](/docs/guides/types.md)
+- [`<svg>` のドラッグ](/docs/guides/dragging-svgs.md)
 - [画像のちらつきを避ける](/docs/guides/avoiding-image-flickering.md)
 - [目に見えないプリセットスタイル](/docs/guides/preset-styles.md)
 - [スクロールコンテナを検出する方法](/docs/guides/how-we-detect-scroll-containers.md)
-- [DOM　イベントの使用方法](/docs/guides/how-we-use-dom-events.md) - _`react-beautiful-dnd`上に構築する必要がある場合に便利_
-- [ドラッグ中に　`<Draggable />`　を追加 (11.x　の動作)](/docs/guides/changes-while-dragging.md) - _⚠️高度
+- [DOM イベントの使用方法](/docs/guides/how-we-use-dom-events.md) - _`react-beautiful-dnd` 上に構築する必要がある場合に便利_
+- [ドラッグ中に `<Draggable />` を追加 (11.x　の動作)](/docs/guides/changes-while-dragging.md) - _⚠️高度
 - [コンテンツセキュリティポリシーの設定](/docs/guides/content-security-policy.md)
 
 ### パターン👷‍
@@ -126,7 +126,7 @@ React　内でドラッグアンドドロップの相互作用を可能にする
 - [仮想リスト👾](/docs/patterns/virtual-lists.md)
 - [マルチドラッグ](/docs/patterns/multi-drag.md)
 - [テーブル](/docs/patterns/tables.md)
-- [`<Draggable />`　の親変更](/docs/guides/reparenting.md) - _クローン　API　または独自ポータルの使用_
+- [`<Draggable />` の親変更](/docs/guides/reparenting.md) - _クローン API または独自ポータルの使用_
 
 ### サポート👩‍⚕️
 
@@ -151,7 +151,7 @@ React　内でドラッグアンドドロップの相互作用を可能にする
 
 Alex Reardon [@alexandereardon](https://twitter.com/alexandereardon)
 
-> Alex　はもはやこのプロジェクトを個人的にメンテナンスしていません。他の素晴らしいメンテナがこのプロジェクトを進めています。
+> Alex はもはやこのプロジェクトを個人的にメンテナンスしていません。他の素晴らしいメンテナがこのプロジェクトを進めています。
 
 ## メインテナー
 
