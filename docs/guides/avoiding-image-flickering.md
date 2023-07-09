@@ -1,12 +1,12 @@
-# Avoiding image flickering
+# 画像のちらつきを避ける
 
-> Often all you need to do is close your browsers dev tools! See 'HTTP cache headers below'
+> 多くの場合、ブラウザの開発ツールを閉じるだけでよいです！以下の 'HTTP cache headers below' を参照。
 
-If your `<Draggable />` has a image inside of it, then you might notice that sometimes it flashes sometimes. Why is that?
+もし `<Draggable />` の中に画像がある場合、時々その画像が点滅していることに気づくかもしれません。なぜでしょうか？
 
-Some behaviours will cause a `<Draggable />` to be **recreated**. This is where the original DOM element is destroyed, and a new DOM element is created. When the new DOM element is inserted into the DOM then the browser will try to load the image from scratch. Image flashing is caused by the gap between the new element being inserted into the DOM and the image being loaded.
+ビヘイビアによっては `<Draggable />` が **再作成** されます。これは元の DOM 要素が破壊され、新しい DOM 要素が作成されることです。新しい DOM 要素が DOM に挿入されると、ブラウザは画像を最初から読み込もうとします。画像の点滅は、新しい要素が DOM に挿入されてから画像が読み込まれるまでの間に隙間ができるために起こります。
 
-These are the actions that can cause a `<Draggable />` to be recreated:
+以下は `<Draggable />` を再作成するためのアクションです:
 
 - [Reparenting](/docs/guides/reparenting.md) a `<Draggable />` (using the cloning api, or using your own portal)
 - Moving `<Draggable />` into a new list. React will not shift the original element. It will recreate one.
