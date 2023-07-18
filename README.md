@@ -118,7 +118,7 @@ React 内でドラッグアンドドロップの相互作用を可能にする�
 - [目に見えないプリセットスタイル](/docs/guides/preset-styles.md)
 - [スクロールコンテナを検出する方法](/docs/guides/how-we-detect-scroll-containers.md)
 - [DOM イベントの使用方法](/docs/guides/how-we-use-dom-events.md) - _`react-beautiful-dnd` 上に構築する必要がある場合に便利_
-- [ドラッグ中に `<Draggable />` を追加 (11.x　の動作)](/docs/guides/changes-while-dragging.md) - _⚠️高度
+- [ドラッグ中に `<Draggable />` を追加 (11.x の動作)](/docs/guides/changes-while-dragging.md) - _⚠️高度
 - [コンテンツセキュリティポリシーの設定](/docs/guides/content-security-policy.md)
 
 ### パターン👷‍
