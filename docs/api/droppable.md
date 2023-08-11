@@ -1,6 +1,6 @@
 # `<Droppable />`
 
-`<Droppable />` components can be **dropped on by a `<Draggable />`**. They also **contain** `<Draggable />`s. A `<Draggable />` must be contained within a `<Droppable />`.
+`<Droppable />` コンポーネントは **`<Draggable />` によってドロップすることができます**。また、`<Draggable />` を**含む**ことができます。また、`<Draggable />` は `<Droppable />` に含まれなければなりません。
 
 ```js
 import { Droppable } from 'react-beautiful-dnd';
