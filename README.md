@@ -55,7 +55,7 @@
 - 🌲[`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/confluence/tree) パッケージによるツリーのサポート
 - `<Droppable />` リストは、スクロールコンテナ（スクロール可能な親なし）またはスクロールコンテナの子（スクロール可能な親なし）にすることができます。
 - 独立したネストされたリスト - リストは別のリストの子になることができますが、親リストから子リストにアイテムをドラッグすることはできません
-- サーバーサイドレンダリング （SSR） 互換 - [resetServerContext()](/docs/api/reset-server-context.md)を参照してください
+- サーバーサイドレンダリング （SSR） 互換 - [resetServerContext()](/docs/api/reset-server-context.md) を参照してください
 - デフォルトでは[ネストされたインタラクティブ要素](/docs/api/draggable.md#interactive-child-elements-within-a-draggable-)とうまく連携します
 
 ## 作成の動機🤔
