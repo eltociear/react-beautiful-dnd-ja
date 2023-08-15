@@ -1,8 +1,8 @@
 # `<Draggable />`
 
-`<Draggable />` components can be dragged around and dropped onto `<Droppable />`s. A `<Draggable />` must always be contained within a `<Droppable />`. It is **possible** to reorder a `<Draggable />` within its home `<Droppable />` or move to another `<Droppable />`. It is **possible** because a `<Droppable />` is free to control what it allows to be dropped on it.
+`<Draggable />` コンポーネントはドラッグして `<Droppable />` にドロップすることができます。常に `<Draggable />` は `<Droppable />` の中に含まれていなければなりません。`<Draggable />` をホームの `<Droppable />` 内で並べ替えたり、他の `<Droppable />` に移動することは **可能** です。これは、`<Droppable />` がその上にドロップされるものを自由にコントロールできるからです。
 
-Every `<Draggable />` has a _drag handle_. A _drag handle_ is the element that the user interacts with in order to drag a `<Draggable />`. A _drag handle_ can be the `<Draggable />` element itself, or a child of the `<Draggable />`. Note that by default a _drag handle_ cannot be an interactive element, since [event handlers are blocked on nested interactive elements](#interactive-child-elements-within-a-draggable-). Proper semantics for accessibility are added to the _drag handle_ element. If you wish to use an interactive element, `disableInteractiveElementBlocking` must be set.
+すべての `<Draggable />` は _drag handle_ を持っています。A _drag handle_ is the element that the user interacts with in order to drag a `<Draggable />`. A _drag handle_ can be the `<Draggable />` element itself, or a child of the `<Draggable />`. Note that by default a _drag handle_ cannot be an interactive element, since [event handlers are blocked on nested interactive elements](#interactive-child-elements-within-a-draggable-). Proper semantics for accessibility are added to the _drag handle_ element. If you wish to use an interactive element, `disableInteractiveElementBlocking` must be set.
 
 ```js
 import { Draggable } from 'react-beautiful-dnd';
