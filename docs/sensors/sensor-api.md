@@ -1,13 +1,13 @@
-# Sensor API 🎮
+# センサー API 🎮
 
 ![sensor api logo](https://user-images.githubusercontent.com/2182637/60233733-ec8ade00-98e4-11e9-88b2-6fe407cf6bcb.jpg)
 
-With our Sensor API it is possible to:
+センサー API を使用すると、次のことが可能です:
 
-- Create drag and drop interactions from **any input** type you can think of
-- Create beautiful scripted **experiences**
+- 考えられる**あらゆる入力**タイプから、ドラッグ＆ドロップでインタラクションを作成する
+- 美しいスクリプト**エクスペリエンス**を作成する
 
-The public Sensor API is the same API that our [mouse](/docs/sensors/mouse.md), [keyboard](/docs/sensors/keyboard.md), and [touch](/docs/sensors/touch.md) sensors use. So it is powerful enough to drive any experience we ship out of the box.
+パブリックなセンサー API は、私たちの[マウス](/docs/sensors/mouse.md)、[キーボード](/docs/sensors/keyboard.md)、[タッチ](/docs/sensors/touch.md)センサーが使用するのと同じ API です。そのため、私たちが箱から出して出荷するどのようなエクスペリエンスにも対応できるほどパワフルです。
 
 ## Examples
 
