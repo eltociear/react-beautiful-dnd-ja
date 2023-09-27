@@ -2,7 +2,7 @@
 
 ## コミュニティ ❤️👋
 
-- [kanban-dnd](https://kanban-dnd.glitch.me) - カンバンスタイルのToDoリストで、カスタムレーンを作成し、その場で並び替えが可能です。
+- [kanban-dnd](https://kanban-dnd.glitch.me) - カンバンスタイルの ToDo リストで、カスタムレーンを作成し、その場で並び替えが可能です。
 - [react-beautiful-dnd-test-utils](https://github.com/colinrcummings/react-beautiful-dnd-test-utils) - 🧤 `react-testing-library` でビルドされた `react-beautiful-dnd` 用のテストユーティリティです。
 - Simple Trello - React エコシステムを利用した、Trello のシンプルなクローン版。
   - [デモ](https://simple-trello.netlify.com/)
