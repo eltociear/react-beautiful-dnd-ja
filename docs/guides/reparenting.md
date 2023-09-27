@@ -1,11 +1,11 @@
-# Reparenting a `<Draggable />`
+# `<Draggable />` の親子化
 
-There are situations were you want to change the parent element of the dragging item while a drag is occurring. There are two approaches you can use to do this:
+ドラッグ中に、ドラッグしているアイテムの親エレメントを変更したい場合があります。これには2つのアプローチがあります:
 
-1. Using our 1st class cloning API (required for [virtual lists](/docs/patterns/virtual-lists.md))
-2. Using your own `portal` with [`ReactDOM.createPortal`](https://reactjs.org/docs/portals.html)
+1. 第 1 種クローン API を使用する（[仮想リスト](/docs/patterns/virtual-lists.md)に必要）
+2. [`ReactDOM.createPortal`](https://reactjs.org/docs/portals.html) を使って独自の `portal` を使用する
 
-## Background
+## バックグラウンド
 
 We leave elements in place when dragging. We apply `position: fixed` on elements when we are moving them around. This is quite robust and allows for you to have `position: relative | absolute | fixed` parents. However, unfortunately `position:fixed` is [impacted by `transform`](http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/) (such as `transform: rotate(10deg);`). This means that if you have a `transform: *` on one of the parents of a `<Draggable />` then the positioning logic will be incorrect while dragging. Lame! For most consumers this will not be an issue.
 
@@ -130,8 +130,8 @@ We have created a [working example](https://react-beautiful-dnd.netlify.com/?sel
 
 If you are doing drag and drop reordering within a `<table>` we have created a portal section inside our [table guide](/docs/patterns/tables.md)
 
-## Performance ⚠️
+## パフォーマンス ⚠️
 
 Keep in mind that anything that is reparented will be rendered from scratch. So you do not want to be moving large component trees into a `portal`: otherwise you will experience large UI jank. We do not recommend using reparenting out of the box because of this performance drawback.
 
-[← Back to documentation](/README.md#documentation-)
+[←ドキュメントに戻る](/README.md#documentation-)
