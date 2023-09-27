@@ -6,9 +6,9 @@
 
 [![Typed with flow](https://img.shields.io/badge/typed%20with-flow-brightgreen.svg?style=flat)](https://flow.org/)
 
-このコードベースは[flow](https://flow.org)で型付けされており、内部一貫性を高め、より弾力的なコードを実現しています。
+このコードベースは [flow](https://flow.org) で型付けされており、内部一貫性を高め、より弾力的なコードを実現しています。
 
-`TypeScript`と`flow`のサポートについては、[タイプガイド](/docs/guides/types.md)で詳しく説明されています。
+`TypeScript` と `flow` のサポートについては、[タイプガイド](/docs/guides/types.md)で詳しく説明されています。
 
 ## テスト済
 
@@ -28,7 +28,7 @@
 
 [![CircleCI branch](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat)](https://circleci.com/gh/atlassian/react-beautiful-dnd/tree/master)
 
-このコードベースは、**極めて高いパフォーマンスを発揮するよう** に設計されています - これはDNAの一部です。可能な限り最小限の更新を行うように設計されています。`react-beautiful-dnd`のために行われたパフォーマンスに関する研究は、こちらで読むことができます:
+このコードベースは、**極めて高いパフォーマンスを発揮するよう** に設計されています - これは DNA の一部です。可能な限り最小限の更新を行うように設計されています。`react-beautiful-dnd` のために行われたパフォーマンスに関する研究は、こちらで読むことができます:
 
 - [Rethinking drag and drop](https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b)
 - [Dragging React performance forward](https://medium.com/@alexandereardon/dragging-react-performance-forward-688b30d40a33)
