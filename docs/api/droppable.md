@@ -72,7 +72,7 @@ The `React` children of a `<Droppable />` must be a function that returns a [`Re
 </Droppable>
 ```
 
-The function is provided with two arguments:
+この関数には2つの引数が渡されます:
 
 ### 1. provided: (DroppableProvided)
 
@@ -129,7 +129,7 @@ type DroppableStateSnapshot = {|
 |};
 ```
 
-The `children` function is also provided with a small amount of state relating to the current drag state. This can be optionally used to enhance your component. A common use case is changing the appearance of a `<Droppable />` while it is being dragged over.
+`children` 関数はまた、現在のドラッグ状態に関連する少量の状態を提供する。これはコンポーネントを拡張するためにオプションで使用することができます。 一般的な使用例としては、`<Droppable />` がドラッグされている間に、その外観を変更することです。
 
 ```js
 <Droppable droppableId="droppable-1">
